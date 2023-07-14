@@ -1,0 +1,14 @@
+body{
+    background: black;
+}
+h1{
+    background: wheat;
+} h1 {
+    animation: blinker 1s linear infinite;
+    color: red;
+    font-family: sans-serif;
+}  
+ @keyframes blinker {
+    50% {
+        opacity: 0;}
+    }
